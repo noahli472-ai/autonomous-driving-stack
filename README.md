@@ -174,6 +174,8 @@ pytest                                 # 20 tests, ~20 s
 ruff check . && ruff format --check .  # linting and formatting (also run by GitHub Actions)
 ```
 
+Step-by-step guide for VS Code on Windows, including fixes for common errors: [`docs/RUNNING_IN_VSCODE.md`](docs/RUNNING_IN_VSCODE.md).
+
 Using the modules directly (also in [`examples/quickstart.py`](examples/quickstart.py)):
 
 ```python
