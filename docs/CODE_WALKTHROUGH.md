@@ -461,12 +461,3 @@ Main lessons from the benchmark (numbers in the README and `results/`):
 | Warm start | Start the solver from the last solution to make it faster |
 | RMS | Root mean square – a typical size of an error over time |
 
----
-
-## 12. Interview cheat sheet (30 seconds)
-
-> "I built an autonomous driving stack in Python: an EKF fuses GNSS, IMU and wheel speed and also estimates the gyro
-> bias; Hybrid A* with Reeds-Shepp curves plans parking manoeuvres; a sampling-based Frenet planner handles
-> overtaking with predicted obstacles; and I compare Pure Pursuit, Stanley and a linear time-varying MPC solved with
-> OSQP in about 3 ms. Everything runs in closed loop against a dynamic single-track model. The MPC is the most precise
-> with a good model, while Stanley is more robust when the vehicle understeers more than expected."
