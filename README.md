@@ -213,6 +213,7 @@ examples/quickstart.py         minimal usage example
 scripts/run_all.py             benchmark + asset generation
 tests/                         physics, planning, control and scenario tests
 docs/CODE_WALKTHROUGH.md       step-by-step explanation of every module
+docs/RUNNING_IN_VSCODE.md      setup and run guide for VS Code on Windows
 ```
 
 ## Limitations and possible extensions
